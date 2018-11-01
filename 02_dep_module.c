@@ -2,8 +2,8 @@
 *	Filename: dep-module-1.c 
 * 
 *	Description: Module dependency Demo 1
-*	programmer: Sateesh Kumar G <contact@sateeshkg.com>
-*	date begun: 04 DEC 2017
+*	programmer: Sateesh Kumar G 
+*	date begun: 04 DEC 2007
 \*********************************************************************/
 
 #include <linux/module.h>	// for init_module() 
