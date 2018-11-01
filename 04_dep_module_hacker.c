@@ -35,6 +35,6 @@ module_init( my_init );
 module_exit( my_exit );
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("SATEESH KG <contact@sateeshkg.com>");
+MODULE_AUTHOR("SATEESH KG");
 MODULE_DESCRIPTION("Details:");
 
