@@ -1,20 +1,3 @@
-//      newproc.cpp     Creates the skeleton for a '/proc' module
-	//
-	//      This application creates skeleton-code for a Linux Kernel 
-	//      Module (LKM) that installs a 'pseudo-file' in the '/proc' 
-	//      directory.  It modifies our earlier 'newinfo.cpp' utility
-	//      (to accommodate the kernel developers' decision to remove 
-	//      their older 'get_info()' interface from kernels 2.6.26+).  
-	//
-	//                      usage:  $ newproc <modname>
-	//
-	//      programmer: ALLAN CRUSE
-	//      written on: 20 FEB 2002
-	//      revised on: 12 MAY 2002 -- to incorporate MODULE_LICENSE
-	//      revised on: 20 JAN 2005 -- for Linux kernel version 2.6.
-	//      revised on: 17 JUN 2007 -- to use new-style init/cleanup
-	//      revised on: 17 JUL 2008 -- to use 'proc_read' interface   
-	//----------------------------------------------------------------
 
 #include <stdio.h>		// for fprintf(), fopen(), fclose(), etc
 #include <string.h>		// for strncpy(), strncat(), memset()
