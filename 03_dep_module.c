@@ -2,8 +2,8 @@
 *	Filename: dep-module-2.c 
 * 
 *	Description: Module dependance demo 2 program
-*	programmer: Sateesh Kumar G <contact@sateeshkg.com>
-*	date begun: 04 DEC 2017
+*	programmer: Sateesh Kumar G 
+*	date begun: 04 DEC 2007
 \*********************************************************************/
 
 #include <linux/module.h>	// for init_module() 
@@ -36,5 +36,5 @@ module_init( my_init );
 module_exit( my_exit );
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("SATEESH KG <contact@sateeshkg.com>");
+MODULE_AUTHOR("SATEESH KG ");
 MODULE_DESCRIPTION("Details:");
