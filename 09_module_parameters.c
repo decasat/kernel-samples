@@ -2,8 +2,8 @@
 *	Filename: pram-module.c 
 * 
 *	Description: Module prameter passing
-*	programmer: Sateesh Kumar G <contact@sateeshkg.com>
-*	date begun: 04 DEC 2017
+*	programmer: Sateesh Kumar G 
+*	date begun: 04 DEC 2007
 \*********************************************************************/
 
 #include <linux/module.h>	// for init_module() 
@@ -67,7 +67,7 @@ module_exit( my_exit );
 
 /*kernel module licensing with GPL */
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("SATEESH KG <contact@sateeshkg.com>");
+MODULE_AUTHOR("SATEESH KG");
 MODULE_DESCRIPTION("Details:");
 
 
